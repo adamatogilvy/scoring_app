@@ -1,0 +1,11 @@
+<div class="well" ng-controller="authenticationController">
+    <div ng-show="authData">
+        <p>{{ authData.facebook.displayName }}</p>
+        <button class="btn btn-danger" ng-click="auth.$unauth()">Logout</button>
+        <a href="#/overview.html">Overview</a>
+    </div>
+    <div ng-hide="authData">
+        <button class="btn btn-primary" ng-click="auth.$authWithOAuthPopup('facebook')"><span class="icon-facebook"></span> Login With Facebook</button>
+        <a href="#/overview.html">Overview</a>
+    </div>
+</div>

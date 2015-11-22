@@ -1,0 +1,15 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic,300,200italic,200,400italic,600,600italic,700,700italic,900,900italic');
+@import 'glyphs';
+@import 'bootstrap';
+@import 'global-variables';
+@import 'mixins';
+@import 'footer';
+@import 'ngAnimations';
+
+html:focus,
+body:focus,
+div:focus {
+    outline: none;
+    outline-style: none;
+}
